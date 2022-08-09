@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sending emails</title>
+        <style>
+            body{
+                background-image: linear-gradient(60deg,rgb(0, 204, 255),rgb(0, 4, 255));
+            }
+            input{
+                width: 290px;
+                height: 30px;
+                margin-bottom: 5px;
+            }
+            textarea{
+                width: 290px;
+                height: 290px;
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Just another form!</h1>
+            <h5>Bringing technology to simplify your life.</h5>
+            <p>Send emails here to anyone. If you want to send to Kaji use kajissob@gmail.com </p>
+            <p>Please fill the form below.</p>
+            <form action="ack.php" method="post">
+                <p>Your name.</p><br>
+                <input type="text" name="name" id="name" placeholder="Provide your name here..."><br>
+                <p>Receiver's email:</p><br>
+                <input type="email" name="email" id="email" placeholder="Provide the email..."><br>
+                <p>Message:</p><br>
+                <textarea name="comment" id="comment" placeholder="Type your message..."></textarea><br>
+                <input type="submit" name="send" value="Send Message">
+            </form>
+        </center>
+    </body>
+</html>
