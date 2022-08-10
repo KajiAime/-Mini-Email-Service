@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email One another</title>
+        <style>
+            body{
+                background-image: linear-gradient(0deg,rgb(0, 0, 180),rgb(88, 191, 231),rgb(0, 0, 180));
+                background-repeat: no-repeat;
+            }
+            a{
+                color: rgb(15, 16, 85);
+            }
+            input{
+                margin-bottom: 5px;
+                width: 300px;
+                background-color: rgb(254, 255, 166);
+                height: 30px;
+                font-size: 17px;
+            }
+            textarea{
+                width: 300px;
+                height: 300px;
+                background-color: rgb(254, 255, 166);
+                font-size: 17px;
+            }
+            p{
+                margin-left: 35%;
+                margin-bottom: 0px;
+                font-size: 17px;
+            }
+            h1{
+                font-size: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>Emailing form!</h1></center>
+            <center><h5 style="margin-top:-20px;">The next genation of email services.</h5></center>
+        <center><p style="margin-left: 0%;">Please tell me how you think the system is.</p></center>
+        <form action="mails.php" method="POST">
+            <p>Your name:</p>
+            <center><input type="text" name="name" placeholder="Provide your email..." required><br></center>
+            <p>Your email:</p>
+            <center><input type="email" name="frome" placeholder="Provide your email..." required><br></center>
+            <p>Receiver's email:</p>
+            <center><input type="email" name="toe" placeholder="Provide your email..." required><br></center>
+            <p>The topic of your review:</p>
+            <center><input type="text" name="subject" placeholder="A little heading please..." required><br></center>
+            <p>Your review:</p>
+            <center><textarea type="text" name="messages" placeholder="Type your message here..."></textarea><br></center>
+            <center><button type="submit">Send</button></center>
+        </form>
+    </body>
+</html>
