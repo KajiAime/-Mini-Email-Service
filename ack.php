@@ -17,7 +17,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Sending emails</title>
+        <title>🙂 Sending emails</title>
     </head>
     <body>
         <?php if(isset($success) && $success){?>
