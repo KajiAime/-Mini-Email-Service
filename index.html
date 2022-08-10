@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>We mean business</title>
-        
+        <meta charset="UTF-8">
+        <meta name="describtion" content="Free emailing facility">
+        <meta name="keywords" content="Emailing, Feedback form, Free Emailing form, Emailing website">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Kaji Aime">
+        <title>🙂 We mean business</title>        
         <style>
+            *{
+                color: rgb(15, 16, 50);
+            }
             body{
-                background-image: linear-gradient(60deg,skyblue,blue);
+                background-image: linear-gradient(0deg,rgb(0, 0, 228),rgb(88, 191, 231),rgb(0, 0, 228));
+                background-repeat: no-repeat;
+            }
+            a{
+                color: rgb(15, 16, 50);
             }
             input{
+                font-size: 17px;
                 margin-bottom: 5px;
                 width: 300px;
+                background-color: rgb(254, 255, 166);
+                height: 30px;
             }
             textarea{
                 width: 300px;
                 height: 300px;
+                background-color: rgb(254, 255, 166);
+                font-size: 17px;
+            }
+            p{
+                font-size: 17px;
+                margin-left: 25%;
+                margin-bottom: 0px;
             }
         </style>
     </head>
     <body>
         <center><h1>Kaji's Feedback System!</h1></center><br>
-        <center><h5 style="margin-top:-40px;">The next genation of email services.</h5>
-            <p>Please tell me how you think the system is.</p>
+        <center><h5 style="margin-top:-40px;">The next genation of email services.</h5></center>
+        <center><p style="margin-left: 0%;">Please tell me how you think the system is.</p></center>
         <form action="https://formsubmit.co/ndekaji@gmail.com" method="POST">
-            <input type="email" name="email" placeholder="Provide your email..." required><br>
-            <input type="text" name="_subject" placeholder="A little heading please..." required><br>
-            <textarea type="text" name="message" placeholder="Type your message here..."></textarea><br>
-            <button type="submit">Send</button>
-        </form></center>
+            <p>Your email:</p>
+            <center><input type="email" name="email" placeholder="Provide your email..." required><br></center>
+            <p>The topic of your review:</p>
+            <center><input type="text" name="_subject" placeholder="A little heading please..." required><br></center>
+            <p>Your review:</p>
+            <center><textarea type="text" name="message" placeholder="Type your message here..."></textarea><br></center>
+            <center><button type="submit">Send</button></center>
+        </form>
 		<center>
-		    <h1><a href="option.htm">Please come back later and click this link too.</a></h1>
-		    <h1><a href="mails.php">Or just click here to say hello!</a></h1>
+		    <h1><a href="option.htm">Please come back later <br>and click this link too.</a></h1>
+		    <h1><a href="index1.html">Or just click here <br>to say hello!</a></h1>
 		</center>
     </body>
 </html>
